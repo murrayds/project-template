@@ -30,6 +30,9 @@ supp.pdf
 # Jupyter
 .ipynb_checkpoints/
 
+# R notebooks
+*.nb.html
+
 # Snakemake
 .snakemake
 workflow/config.yaml

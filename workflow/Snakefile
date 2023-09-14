@@ -1,11 +1,8 @@
-from os.path import join as pjoin
+from os.path import join as j
 
-# You can use config file to set various variables including parameters
-# instead defining everything here.
-#
-# configfile: "config.yaml"   # uncomment to use config file.
+# Use a config file
+configfile: "config.yaml"
 
-DATA_DIR = "../data/"
 RAW_DATA_DIR = pjoin(DATA_DIR, "raw")
 DERIVED_DATA_DIR = pjoin(DATA_DIR, "derived")
 
