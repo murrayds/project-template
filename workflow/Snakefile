@@ -3,8 +3,9 @@ from os.path import join as j
 # Use a config file
 configfile: "config.yaml"
 
-RAW_DATA_DIR = pjoin(DATA_DIR, "raw")
-DERIVED_DATA_DIR = pjoin(DATA_DIR, "derived")
+RAW_DIR = j(config["data_dir"], "raw")
+DERIVED_DIR = j(config["data_dir"], "derived")
+FIG_DIR = j(config["fig_dir"], "figs")
 
 """
 rule all:
